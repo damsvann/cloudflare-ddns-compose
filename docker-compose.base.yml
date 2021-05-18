@@ -1,0 +1,6 @@
+version: "3"
+
+services:
+    cloudflare-ddns:
+        image: oznu/cloudflare-ddns:armhf
+        restart: always
