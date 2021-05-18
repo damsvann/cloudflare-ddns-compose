@@ -5,11 +5,11 @@
 ### Create an environment file for local test with your correct values
 ~~~
 # ./cloudflare/configs/environment/local.env
-# EMAIL="me@example.org"
-API_KEY="<CF API TOKEN>"
-ZONE="example.org"
+# EMAIL=me@example.org
+API_KEY=<CF API TOKEN>
+ZONE=example.org
 # Record to be changed could be a subdomain as well
-# SUBDOMAIN="subdomain"
+# SUBDOMAIN=subdomain
 ~~~
 
 ### Then run the service
@@ -24,11 +24,11 @@ docker-compose -f docker-compose.base.yml -f docker-compose.local.yml -p cloudfl
 ### Create an environment file for local, with your correct CF values
 ~~~
 # ./cloudflare/configs/environment/local.env
-# EMAIL="me@example.org"
-API_KEY="<CF API TOKEN>"
-ZONE="example.org"
+# EMAIL=me@example.org
+API_KEY=<CF API TOKEN>
+ZONE=example.org
 # Record to be changed could be a subdomain as well
-# SUBDOMAIN="subdomain"
+# SUBDOMAIN=subdomain
 ~~~
 
 ### Then run the service
